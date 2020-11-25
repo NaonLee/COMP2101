@@ -1,2 +1,2 @@
 # COMP2101
-Administrative Scripting
+Administrative Scripting (Shell)
