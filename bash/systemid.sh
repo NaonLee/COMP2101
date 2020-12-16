@@ -28,4 +28,6 @@ LAN Name      : $(getent hosts `ip a s ens33|grep 'inet '|awk '{print $2}'|sed '
 External IP   : $(curl -s icanhazip.com)
 External Name : $(getent hosts `curl -s icanhazip.com` | awk '{print $2}')
 Router   IP   : $(ip route list default | awk '{print $3}')
+Router   Name : $(ip route list default | awk '(print $1}')
+Network  Name : $(getent networks|awk '{print $1}')
 "
