@@ -4,3 +4,5 @@
 echo "Hello World"
 echo "I am process # $$"
 
+echo 'today is 'date+%A''
+
